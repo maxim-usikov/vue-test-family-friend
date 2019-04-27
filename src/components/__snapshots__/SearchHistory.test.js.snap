@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchHistory renders HistoryEmptyList component 1`] = `
+<div>
+  <a
+    href="#"
+  >
+    История запросов:
+  </a>
+   
+  <historyemptylist-stub />
+</div>
+`;
+
+exports[`SearchHistory renders HistoryList component 1`] = `
+<div>
+  <a
+    href="#"
+  >
+    История запросов:
+  </a>
+   
+  <historylist-stub>
+    <historylistitem-stub
+      createdat="Wed Dec 26 1990 00:00:00 GMT+0300 (Moscow Standard Time)"
+      id="111"
+      query="test"
+      response="[object Object]"
+    />
+    <historylistitem-stub
+      createdat="Wed Dec 26 1990 20:00:00 GMT+0300 (Moscow Standard Time)"
+      id="222"
+      query="vue"
+      response="[object Object]"
+    />
+  </historylist-stub>
+</div>
+`;
+
+exports[`SearchHistory renders correctly 1`] = `
+<div>
+  <a
+    href="#"
+  >
+    История запросов:
+  </a>
+   
+  <!---->
+</div>
+`;
