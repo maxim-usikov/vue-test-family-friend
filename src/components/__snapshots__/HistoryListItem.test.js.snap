@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryListItem renders correctly 1`] = `
+<li>
+  
+  777.
+  (20:00)
+  test
+  
+  <span
+    class="RepositoryCount"
+  >
+    999
+  </span>
+</li>
+`;
