@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchRepositories calls fetch 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "https://api.github.com/graphql",
+      Object {
+        "body": "{\\"query\\":\\"\\\\nquery searchRepositories($q: String!, $first: Int!) {\\\\n  search(query: $q, type: REPOSITORY, first: $first) {\\\\n    edges {\\\\n      node {\\\\n        ... on Repository {\\\\n          id\\\\n          url\\\\n          name\\\\n          nameWithOwner\\\\n          description\\\\n          homepageUrl\\\\n          licenseInfo {\\\\n            name\\\\n          }\\\\n          stargazers {\\\\n            totalCount\\\\n          }\\\\n        }\\\\n      }\\\\n      cursor\\\\n    }\\\\n    pageInfo {\\\\n      endCursor\\\\n      hasNextPage\\\\n      hasPreviousPage\\\\n      startCursor\\\\n    }\\\\n    repositoryCount\\\\n  }\\\\n}\\\\n  \\",\\"variables\\":{\\"q\\":\\"test\\",\\"first\\":10}}",
+        "cache": "no-cache",
+        "headers": Object {
+          "Authorization": "bearer test",
+          "Content-Type": "application/json",
+        },
+        "method": "POST",
+        "mode": "cors",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": Promise {},
+    },
+  ],
+}
+`;
