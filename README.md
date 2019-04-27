@@ -1,5 +1,12 @@
 # vue-test-family-friend
 
+## Enviroment setup
+1. Create Github Personal Access Token [here](https://github.com/settings/tokens)
+2. Create `<rootDir>/.env.local` with:
+```
+VUE_APP_GITHUB_PERSONAL_ACCESS_TOKEN = PASTE_YOUR_TOKEN_HERE
+```
+
 ## Project setup
 ```
 yarn install
