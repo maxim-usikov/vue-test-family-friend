@@ -3,7 +3,7 @@ const {
   VUE_APP_GITHUB_PERSONAL_ACCESS_TOKEN,
 } = process.env;
 
-function createQuery({ q, first = 10 }) {
+function createQuery({ q, first = 100 }) {
   const query = `
 query searchRepositories($q: String!, $first: Int!) {
   search(query: $q, type: REPOSITORY, first: $first) {
