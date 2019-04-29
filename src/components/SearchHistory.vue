@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <a
       href="#"
       @click="toggleShow"
@@ -12,7 +12,7 @@
         v-bind="item"
       />
     </HistoryList>
-  </div>
+  </section>
 </template>
 
 <script>
