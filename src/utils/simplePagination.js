@@ -1,3 +1,4 @@
+// TODO: tests
 function simplePagination(currentPage, pageCount) {
   const delta = 2;
   const range = [];
