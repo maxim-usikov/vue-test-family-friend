@@ -146,7 +146,8 @@ export default {
     },
 
     filterByName(item) {
-      return item.node.name.toLowerCase()
+      return item.node.name
+        .toLowerCase()
         .includes(this.currentFilter.toLowerCase());
     },
 
@@ -257,13 +258,11 @@ export default {
 }
 
 .PageActive {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
 .Page:hover:not(.PageActive) {
   background-color: #ddd;
 }
-
-
 </style>
