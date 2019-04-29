@@ -8,7 +8,7 @@ exports[`SearchHistory renders HistoryEmptyList component 1`] = `
     История запросов:
   </a>
    
-  <historyemptylist-stub />
+  <historyempty-stub />
 </section>
 `;
 
