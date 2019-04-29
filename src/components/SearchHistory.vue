@@ -4,7 +4,7 @@
       href="#"
       @click="toggleShow"
     >История запросов:</a>
-    <HistoryEmptyList v-if="show && items.length === 0" />
+    <HistoryEmpty v-if="show && items.length === 0" />
     <HistoryList v-else-if="show">
       <HistoryListItem
         v-for="item in items"
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import HistoryEmptyList from '@/components/HistoryEmptyList.vue';
+import HistoryEmpty from '@/components/HistoryEmpty.vue';
 import HistoryList from '@/components/HistoryList.vue';
 import HistoryListItem from '@/components/HistoryListItem.vue';
 
@@ -24,7 +24,7 @@ export default {
   name: 'SearchHistory',
 
   components: {
-    HistoryEmptyList,
+    HistoryEmpty,
     HistoryList,
     HistoryListItem,
   },
