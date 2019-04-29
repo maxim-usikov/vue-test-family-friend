@@ -15,7 +15,7 @@ describe('date.hhmm', () => {
     ${new Date('December 26, 1990 11:00:00')} | ${'11:00'}
     ${new Date('December 26, 1990 20:00:00')} | ${'20:00'}
     ${new Date('December 26, 1990 21:00:00')} | ${'21:00'}
-  `('conterts $date to $expected', ({ date, expected }) => {
+  `('converts $date to $expected', ({ date, expected }) => {
   expect(hhmm(date)).toBe(expected);
 });
 });
