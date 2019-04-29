@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HistoryEmptyList renders correctly 1`] = `
+exports[`HistoryEmpty renders correctly 1`] = `
 <div
   class="Container"
 >
   
-  No data
+  No history
 
 </div>
 `;

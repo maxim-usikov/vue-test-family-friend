@@ -1,12 +1,12 @@
 <template>
   <div :class="$style.Container">
-    No data
+    No history
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HistoryEmptyList',
+  name: 'HistoryEmpty',
 };
 </script>
 

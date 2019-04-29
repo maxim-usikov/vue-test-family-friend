@@ -1,20 +1,20 @@
 import { shallowMount } from '@vue/test-utils';
 
-import HistoryEmptyList from './HistoryEmptyList.vue';
+import HistoryEmpty from './HistoryEmpty.vue';
 
-describe('HistoryEmptyList', () => {
+describe('HistoryEmpty', () => {
   let $c;
 
   beforeEach(() => {
-    $c = shallowMount(HistoryEmptyList);
+    $c = shallowMount(HistoryEmpty);
   });
 
   it('is a Vue instance', () => {
     expect($c.isVueInstance()).toBeTruthy();
   });
 
-  it('name is `HistoryEmptyList`', () => {
-    expect($c.name()).toBe('HistoryEmptyList');
+  it('name is `HistoryEmpty`', () => {
+    expect($c.name()).toBe('HistoryEmpty');
   });
 
   it('renders correctly', () => {
