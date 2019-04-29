@@ -146,7 +146,8 @@ export default {
     },
 
     filterByName(item) {
-      return item.node.name.toLowerCase().includes(this.currentFilter);
+      return item.node.name.toLowerCase()
+        .includes(this.currentFilter.toLowerCase());
     },
 
     handleSort(field, order) {
